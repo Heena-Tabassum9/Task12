@@ -1,0 +1,40 @@
+Task 12 – Power BI Data Transformation Notes
+
+Dataset Used:
+Superstore Dataset (CSV)
+
+Tool Used:
+Power BI Desktop – Power Query Editor
+
+Data Transformation Steps Performed:
+
+1. Imported the Superstore dataset into Power BI using the Text/CSV option.
+
+2. Opened Power Query Editor to perform data cleaning and transformation before loading the data model.
+
+3. Removed unnecessary columns such as Row ID and Postal Code to reduce data redundancy.
+   Renamed column headers to maintain consistency and readability.
+
+4. Checked for missing values in numeric and categorical columns.
+   Replaced null values in numeric columns like Profit and Discount where required.
+
+5. Corrected data types for all columns.
+   Converted Order Date and Ship Date columns to Date type using locale-based conversion
+   to handle regional date format issues.
+
+6. Split the Customer Name column into meaningful components where required.
+   Merged location-related columns for better geographical analysis.
+
+7. Created conditional columns using Power Query:
+   - Profit_Status column to classify orders as Profit or Loss.
+   - Sales_Band column to group sales into Low, Medium, and High categories.
+
+8. Applied all transformations and loaded the cleaned data into the Power BI data model.
+
+9. Built interactive dashboard visuals using transformed data, including category-wise sales,
+   profit distribution, sales trends over time, and sales segmentation.
+
+Final Outcome:
+The dataset was successfully cleaned, transformed, and prepared for analysis.
+This task improved understanding of real-world data preprocessing using Power Query
+before building analytical dashboards.
